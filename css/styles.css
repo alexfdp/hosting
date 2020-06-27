@@ -2,6 +2,20 @@
   font-family: 'Titillium Web', sans-serif;
   /* background-image: url('../imagenes/fondo.jpg'); */
 }
+h2{
+  font-size: 200px ;
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+}
+p{
+  font-size: 18px;
+  color: #999999;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+
 .navbar{
   /* background-color: black; */
   box-shadow:0 2px 4px 0 rgb(0, 0, 0, .09);
@@ -12,9 +26,7 @@
 .navbar-toggler:focus{
   outline: none;
 }
-h2{
-  font-size: 200px ;
-}
+
 .carousel-inner{
   max-height: 400px;
 }
@@ -23,7 +35,41 @@ h2{
   margin: 0 auto 60px auto;
   text-align: center;
 }
+section{
+  padding: 60px 0;
+}
 
+.portfolio-container{
+  position: relative;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 2px;
+}
+.portfolio-container img{
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+.portfolio-container:hover img{
+  -moz-transforms: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.portfolio-details{
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  z-index: 9000;
+}
+.portfolio-details a:hover{
+  text-decoration: none;
+}
+.portfolio-details h2{
+  margin-bottom: 0px;
+}
+.portfolio-details a h2, .portfolio-details a p{
+  color: white;
+}
 /* Extra small devices (portrait phones, less than 576px) */
 /* @media (max-width: 575.98px) { ... } */
 
