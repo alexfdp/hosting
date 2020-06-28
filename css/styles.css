@@ -123,7 +123,7 @@ section{  padding:40px 0;}
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
-   
+   .topmargin-lg{  margin-top: 60px;}
 }
 
 /* Medium devices (tablets, less than 992px) */
